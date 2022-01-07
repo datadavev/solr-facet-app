@@ -30,8 +30,8 @@ const sortFields = [
 
 const solrClient = new SolrClient({
 	// The solr index url to be queried by the client
-	url: "http://localhost:8985/solr/isb_core_records/select",
-	//url: "https://mars.cyverse.org/thing/select",
+	//url: "http://localhost:8985/solr/isb_core_records/select",
+	url: "https://mars.cyverse.org/thing/select",
 	//idField: "id",
 	//pageStrategy: "cursor",
 	rows: 50,
